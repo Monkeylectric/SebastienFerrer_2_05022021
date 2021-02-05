@@ -1,0 +1,89 @@
+/* ----------------------- GÉNERAL ----------------------- */
+html, body{
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100vw;
+    height: auto;
+}
+section{
+    width: 100vw;
+}
+
+/* ----------------------- NAVBAR ----------------------- */
+
+/* ----------------------- FILTER ----------------------- */
+.input-group{
+    width: 20%;
+}
+.fa-map-marker{
+    background-color: #F2F2F2;
+    color: #121212;
+}
+.btn-input{
+    border-radius: 0px 5px 5px 0px;
+}
+.filter-button i{
+    background-color: #D9EDF6;
+    color: #0660E8;
+    position: relative;
+    padding: 10px;
+    left: 30px;
+    border-radius: 20px;
+}
+.btn-filter {
+    background-color: #FFF;
+    border: 1px solid gray;
+    color: #000;
+    padding-left: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* ----------------------- PRODUCT ----------------------- */
+.gallery {
+    /*
+    display: flex;
+    justify-items: center;*/
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    /*padding: 2px;*/
+}
+  
+.gallery:hover {
+    border: 1px solid #777;
+}
+img {
+    background-size: contain;
+    border-radius: 15px 15px 0 0;
+    padding: 5px 5px 0 3px;
+    height: 100px;
+    width: 220px;
+}
+.thumbnail-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    padding: 5px 5px 0 3px;
+    height: 100px;
+    width: 220px;
+}
+.thumbnail-text{
+    padding-left: 3px;
+}
+p{
+    display: inline;
+    font-size: 15px;
+}
+.note{
+    color: #0065FC;
+}
+.note-empty{
+    color: #D9D9D9;
+}
+
+/* ----------------------- ACTIVITY ----------------------- */
+
+/* ----------------------- FOOTER ----------------------- */

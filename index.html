@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 02 - Reservia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ----------------------- NAVBAR ----------------------- -->
+    <section class="navbar">
+        <a class="navbar-brand" href="#">
+            <img src="img/Reservia.svg" width="100" height="70" class="d-inline-block align-top" alt="">
+        </a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Hébergements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Activités</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">S'inscrire</a>
+            </li>
+          </ul>
+    </section>
+
+    <!-- ----------------------- FILTER ----------------------- -->
+    <section class="filter">
+        <div>
+            <h4>Trouvez votre hébergement pour des vacances de rêve</h4>
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <div>
+            <!-- ---- Input ---- -->
+            <div class="input-group mb-3">
+                <span class="input-group-text "><i class="fa fa-map-marker"></i></span>
+                <input type="text" class="form-control" placeholder="Marseille, France" aria-label="Marseille, France">
+                <div class="input-group-append">
+                  <button class="btn btn-primary btn-input" type="button">Rechercher</button>
+                </div>
+            </div>
+        </div>
+        <div class="filter-content">
+            <p>Filtres</p>
+            <!-- ---- Filter button ---- -->
+            <div class="filter-button">
+                <div class="btn-container"><i class="fa fa-home"></i><button class="btn btn-outline-primary btn-filter" type="button">Économique</button></div><br>
+                <div class="btn-container"><i class="fa fa-child"></i><button class="btn btn-outline-primary btn-filter" type="button">Familial</button></div><br>
+                <div class="btn-container"><i class="fa fa-heart"></i><button class="btn btn-outline-primary btn-filter" type="button">Romantique</button></div><br>
+                <div class="btn-container"><i class="fa fa-cube"></i><button class="btn btn-outline-primary btn-filter" type="button">Animaux autorisés</button></div><br>
+            </div>
+        </div>
+        <div class="info"><i class="fa fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</div>
+    </section>
+
+    <!-- ----------------------- PRODUCT ----------------------- -->
+    <section class="product">
+        <div class="accommodation-title">
+            <h5 class="accommodation-title">Hébergements à Marseille</h5>
+        </div>
+        <!-- PHOTOS -->
+        <div id="accomodation-galery">
+            <!-- ---- First line ---- -->
+            <div class="gallery">
+                <a target="_blank" href="#">
+                    <img src="img/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                </a>
+                <div class="thumbnail-text">
+                    <p class="title">Auberge la Cannebière</p><br>
+                    <p class="price">Nuit à partir de 25€</p><br>
+                    <p class="note">&#9733;&#9733;&#9733;&#9733;<span class="note-empty">&#9733;</span></p>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="#">
+                    <img src="img/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
+                </a>
+                <div class="thumbnail-text">
+                    <p class="title">Hôtel du port</p><br>
+                    <p class="price">Nuit à partir de 52€</p><br>
+                    <p class="note">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="#">
+                    <img src="img/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
+                </a>
+                <div class="thumbnail-text">
+                    <p class="title">Hôtel Les mouettes</p><br>
+                    <p class="price">Nuit à partir de 76€</p><br>
+                    <p class="note">&#9733;&#9733;&#9733;&#9733;<span class="note-empty">&#9733;</span></p>
+                </div>
+            </div>
+
+            <!-- ---- Second line ---- -->
+            <div class="gallery">
+                <a target="_blank" href="#">
+                    <img src="img/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
+                </a>
+                <div class="thumbnail-text">
+                    <p class="title">Hôtel de la mer</p><br>
+                    <p class="price">Nuit à partir de 46€</p><br>
+                    <p class="note">&#9733;&#9733;&#9733;<span class="note-empty">&#9733;&#9733;</span></p>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="#">
+                    <img src="img/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+                </a>
+                <div class="thumbnail-text">
+                    <p class="title">Auberge Le Panier</p><br>
+                    <p class="price">Nuit à partir de 23€</p><br>
+                    <p class="note">&#9733;&#9733;&#9733;&#9733;<span class="note-empty">&#9733;</span></p>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank" href="#">
+                    <div class="thumbnail-img" style="background-image: url(img/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);"></div>
+                </a>
+                <div class="thumbnail-text">
+                    <p class="title">Auberge la Cannebière</p><br>
+                    <p class="price">Nuit à partir de 25€</p><br>
+                    <p class="note">&#9733;&#9733;&#9733;&#9733;<span class="note-empty">&#9733;</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="polpularity">
+            <h5 class="accommodation-title">Les plus populaires</h5>
+        </div>
+        <!-- PHOTOS -->
+        <div>
+
+        </div>
+    </section>
+
+    <!-- fa fa-line-chart -->
+
+    <!-- ----------------------- ACTIVITY ----------------------- -->
+    <section class="activity"></section>
+
+    <!-- ----------------------- FOOTER ----------------------- -->
+    
+</body>
+</html>
