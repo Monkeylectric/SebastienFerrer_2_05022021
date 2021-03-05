@@ -31,7 +31,8 @@
                 <span class="input-group-text "><i class="fa fa-map-marker"></i></span>
                 <input type="text" class="form-control" placeholder="Marseille, France" aria-label="Marseille, France">
                 <div class="input-group-append">
-                  <button class="btn btn-primary btn-input" type="button">Rechercher</button>
+                  <button id="search-text" class="btn btn-primary btn-input" type="button">Rechercher</button>
+                  <button id="search-icon" class="btn btn-primary btn-input" type="button"><i class="fas fa-search"></i></button>
                 </div>
             </div>
         </div>
@@ -62,7 +63,7 @@
                     <div class="thumbnail-text">
                         <p class="title">Auberge la Cannebière</p><br>
                         <p class="price">Nuit à partir de 25<span class="currency">€</span></p><br>
-                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star note-empty"></i></p>
                     </div>
                 </div>
 
@@ -71,7 +72,7 @@
                     <div class="thumbnail-text">
                         <p class="title">Hôtel du port</p><br>
                         <p class="price">Nuit à partir de 52<span class="currency">€</span></p><br>
-                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                     </div>
                 </div>
 
@@ -80,12 +81,10 @@
                     <div class="thumbnail-text">
                         <p class="title">Hôtel Les mouettes</p><br>
                         <p class="price">Nuit à partir de 76<span class="currency">€</span></p><br>
-                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star note-empty"></i></p>
                     </div>
                 </div>
             </div>
-
-            <br>
 
             <div class="accomodation-gallery">
                 <!-- ---- Second line ---- -->
@@ -94,7 +93,7 @@
                     <div class="thumbnail-text">
                         <p class="title">Hôtel de la mer</p><br>
                         <p class="price">Nuit à partir de 46<span class="currency">€</span></p><br>
-                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star note-empty"></i><i class="fas fa-star note-empty"></i></p>
                     </div>
                 </div>
 
@@ -103,7 +102,7 @@
                     <div class="thumbnail-text">
                         <p class="title">Auberge Le Panier</p><br>
                         <p class="price">Nuit à partir de 23<span class="currency">€</span></p><br>
-                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star note-empty"></i></p>
                     </div>
                 </div>
 
@@ -112,7 +111,7 @@
                     <div class="thumbnail-text">
                         <p class="title">Auberge la Cannebière</p><br>
                         <p class="price">Nuit à partir de 25<span class="currency">€</span></p><br>
-                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                     </div>
                 </div>
             </div>
@@ -132,7 +131,7 @@
                     <div class="thumbnail-text">
                         <p class="title">Hôtel Le soleil du matin</p><br>
                         <p class="price">Nuit à partir de 128<span class="currency">€</span></p><br>
-                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
                     </div>
                 </div>
     
@@ -141,7 +140,7 @@
                     <div class="thumbnail-text">
                         <p class="title">Au coeur de l'eau <br>Chambres d'hôtes</p><br>
                         <p class="price">Nuit à partir de 71<span class="currency">€</span></p><br>
-                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star note-empty"></i></p>
                     </div>
                 </div>
     
@@ -150,7 +149,7 @@
                     <div class="thumbnail-text">
                         <p class="title">Hôtel Tout bleu et Blanc</p><br>
                         <p class="price">Nuit à partir de 68<span class="currency">€</span></p><br>
-                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <p class="note"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star note-empty"></i></p>
                     </div>
                 </div>
             </div>
