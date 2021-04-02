@@ -223,7 +223,7 @@ a{
 }
 .gallery {
     background-color: #FFF;
-    width: 250px;
+    width: 28%;
     height: 200px;
     border: 1px solid #ccc;
     border-radius: 15px;
@@ -239,7 +239,8 @@ a{
     border-radius: 15px 15px 0 0;
     border: 5px solid #FFF;
     height: 100px;
-    width: 240px;
+    /*width: 240px;*/
+    width: 96%;
 }
 .thumbnail-text{
     padding-left: 15px;
@@ -250,6 +251,8 @@ p{
     font-size: 15px;
 }
 .title, .currency{
+    display: inline;
+    font-size: 15px;
     font-weight: bold;
 }
 .note{
@@ -553,9 +556,6 @@ footer .sub-item a:hover{
     .gallery-popularity{
         width: 90%;
     }
-    .gallery-popularity .thumbnail-text {
-        padding: 10px 50px 0 10px;
-    }
 
     /* --------------- ACTIVITY --------------- */
     .activity{
@@ -564,10 +564,9 @@ footer .sub-item a:hover{
     .activity-grid{
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
+        margin: 0 10px;
     }
     .activity-photo{
-        width: 95%;
         height: 180px;
         box-shadow: 2px 2px 5px #AAA;
     }
