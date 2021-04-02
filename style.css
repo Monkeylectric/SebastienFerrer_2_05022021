@@ -24,7 +24,8 @@ a{
     justify-self: start;
     width: 100px;
     height: auto;
-    padding: 20px 0 0 70px;
+    /*padding: 20px 0 0 70px;*/
+    padding: 20px 0 0 6%;
 }
 .nav-link{
     display: flex;
@@ -61,7 +62,7 @@ a{
 /  ---------------------------------------------------------
 /  ------------------------------------------------------ */
 .filter{
-    padding: 0 70px;
+    padding: 0 6%;
 }
 .filter-title{
     margin-bottom: 15px;
@@ -275,7 +276,7 @@ p{
     padding: 0 20px 0 40px;
 }
 .popularity-title-contain i{
-    padding-left: 130px;
+    padding-left: 120px;
 }
 .popularity-title{
     font-weight: bold;
@@ -326,7 +327,7 @@ p{
 .activity-title-general h5{
     font-weight: bold;
     font-size: 16px;
-    padding: 0 60px;
+    padding: 0 5%;
 }
 .activity-grid{
     display: grid;
@@ -399,7 +400,8 @@ footer .footer-container{
     flex-direction: row;
     align-items: center;
     height: 200px;
-    padding: 0 80px;
+    /*padding: 0 80px;*/
+    padding: 0 7%;
 }
 footer .spec{
     padding: 0 300px;
@@ -552,9 +554,6 @@ footer .sub-item a:hover{
     }
     .popularity-title-contain{
         padding: 0 0 0 20px;
-    }
-    .popularity-title-contain i {
-        padding-left: 170px;
     }
     .gallery-popularity{
         width: 90%;
