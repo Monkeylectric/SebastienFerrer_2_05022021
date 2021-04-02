@@ -66,8 +66,8 @@ a{
 .filter-title{
     margin-bottom: 15px;
 }
-.filter h4{
-    font-weight: bold;
+.filter h2{
+    font-size: 20px;
 }
 .fa-map-marker{
     background-color: #F2F2F2;
@@ -334,6 +334,9 @@ p{
     grid-template-rows: 200px 200px;
     column-gap: 50px;
     justify-content: center;
+}
+.activity-grid figure{
+    margin: 0;
 }
 .activity-title-general, .activity-title{
     display: flex;
