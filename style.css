@@ -20,7 +20,7 @@ a{
     width: 100%;
     height: auto;
 }
-.navbar-img{
+.navbar h3{
     justify-self: start;
     width: 100px;
     height: auto;
@@ -441,7 +441,7 @@ footer .sub-item a:hover{
         width: 100%;
         height: auto;
     }
-    .navbar-img{
+    .navbar h3{
         grid-column: 1;
         justify-self: center;
         width: 100px;
