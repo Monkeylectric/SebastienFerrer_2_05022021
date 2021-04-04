@@ -435,7 +435,7 @@ footer .sub-item a:hover{
 }
 
 /* ------------------------------------ SMARTPHONE ------------------------------------ */
-@media screen and (max-width: 450px){
+@media screen and (max-width: 615px){
 
     /* ----------------------- NAVBAR ----------------------- */
     .navbar{
@@ -606,7 +606,7 @@ footer .sub-item a:hover{
 }
 
 /* ------------------------------------ TABLET ------------------------------------ */
-@media screen and (min-width: 451px) and (max-width: 1100px){
+@media screen and (min-width: 616px) and (max-width: 1100px){
 
     /* ----------------------- NAVBAR ----------------------- */
     .navbar{
